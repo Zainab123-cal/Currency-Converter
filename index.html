@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Currency Converter</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+<!-- Create a container for our currency converter -->
+<div id="currency-converter">
+    <!-- Add a select element for the from currency -->
+    <select id="from-currency">
+      <option value="USD">US Dollar (USD)</option>
+      <option value="EUR">Euro (EUR)</option>
+      <option value="GBP">British Pound (GBP)</option>
+      <option value="JPY">Japanese Yen (JPY)</option>
+      <option value="CNY">Chinese Yuan (CNY)</option>
+    </select>
+  
+    <!-- Add a input element for the amount to convert -->
+    <input type="number" id="amount" value="1">
+  
+    <!-- Add a select element for the to currency -->
+    <select id="to-currency">
+      <option value="USD">US Dollar (USD)</option>
+      <option value="EUR">Euro (EUR)</option>
+      <option value="GBP">British Pound (GBP)</option>
+      <option value="JPY">Japanese Yen (JPY)</option>
+      <option value="CNY">Chinese Yuan (CNY)</option>
+    </select>
+  
+    <!-- Add a button to convert the currency -->
+    <button id="convert-button">Convert</button>
+  
+    <!-- Add a div to display the result -->
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
